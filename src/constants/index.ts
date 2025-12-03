@@ -69,7 +69,7 @@ const services: TService[] = [
 const technologies: TTechnology[] = [
   {
     name: "HTML 5",
-    icon: "/assets/tech/html.png",
+    icon: html,
   },
   {
     name: "CSS 3",
