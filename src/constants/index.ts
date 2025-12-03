@@ -12,7 +12,15 @@ import {
   backend,
   creator,
   web,
-
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
   git,
 
   meta,
@@ -61,39 +69,39 @@ const services: TService[] = [
 const technologies: TTechnology[] = [
   {
     name: "HTML 5",
-    icon: "../public/assets/tech/html.png",
+    icon: "/assets/tech/html.png",
   },
   {
     name: "CSS 3",
-    icon: "../public/assets/tech/css.png",
+    icon: css,
   },
   {
     name: "JavaScript",
-    icon: "../public/assets/tech/javascript.png",
+    icon: javascript,
   },
   {
     name: "TypeScript",
-    icon: "../public/assets/tech/typescript.png",
+    icon: typescript,
   },
   {
     name: "React JS",
-    icon: "../public/assets/tech/reactjs.png",
+    icon: reactjs,
   },
   {
     name: "Redux Toolkit",
-    icon: "../public/assets/tech/redux.png",
+    icon: redux,
   },
   {
     name: "Tailwind CSS",
-    icon: "../public/assets/tech/tailwind.png",
+    icon: tailwind,
   },
   {
     name: "Node JS",
-    icon: "../public/assets/tech/nodejs.png",
+    icon: nodejs,
   },
   {
     name: "MongoDB",
-    icon: "../public/assets/tech/mongodb.png",
+    icon: mongodb,
   },
   {
     name: "mysql",
